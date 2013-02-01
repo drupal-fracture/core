@@ -1099,5 +1099,98 @@
         ],
         "description": "Symfony Serializer Component",
         "homepage": "http://symfony.com"
+    },
+    {
+        "name": "composer/installers",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers",
+            "reference": "v1.0.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/v1.0.1",
+            "reference": "v1.0.1",
+            "shasum": ""
+        },
+        "replace": {
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2013-01-14 07:14:45",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Composer\\Installers\\Installer"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Composer\\Installers\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "http://dontkry.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "http://composer.github.com/installers/",
+        "keywords": [
+            "symfony",
+            "installer",
+            "zend",
+            "wordpress",
+            "cakephp",
+            "codeigniter",
+            "fuelphp",
+            "drupal",
+            "lithium",
+            "li3",
+            "joomla",
+            "laravel",
+            "phpbb",
+            "ppi",
+            "silverstripe",
+            "kohana",
+            "mako",
+            "TYPO3 Flow",
+            "TYPO3 Neos",
+            "agl"
+        ]
+    },
+    {
+        "name": "drupal-fracture/action",
+        "version": "dev-composer",
+        "version_normalized": "dev-composer",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/drupal-fracture/action.git",
+            "reference": "10e512cd190ee4fc8fc517a609c9145d2fe0cf8a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/drupal-fracture/action/zipball/10e512cd190ee4fc8fc517a609c9145d2fe0cf8a",
+            "reference": "10e512cd190ee4fc8fc517a609c9145d2fe0cf8a",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*"
+        },
+        "time": "2013-02-01 00:51:25",
+        "type": "drupal-module",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/"
     }
 ]

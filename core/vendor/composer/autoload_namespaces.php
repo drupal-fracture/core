@@ -25,5 +25,6 @@ return array(
     'Guzzle\\Common' => $vendorDir . '/guzzle/common/',
     'EasyRdf_' => $vendorDir . '/easyrdf/easyrdf/lib/',
     'Doctrine\\Common' => $vendorDir . '/doctrine/common/lib/',
+    'Composer\\Installers\\' => $vendorDir . '/composer/installers/src/',
     'Assetic' => $vendorDir . '/kriswallsmith/assetic/src/',
 );
